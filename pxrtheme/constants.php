@@ -27,7 +27,7 @@ if (!defined('PXR_THEME_VERSION')){
 	define('PXR_THEME_VERSION', pxr_theme_data_variable('Version'));
 }
 if (!defined('PXR_THEME_URL')){
-	define("PXR_THEME_URL", get_template_directory_uri());
+	define("PXR_THEME_URL", get_stylesheet_directory_uri());
 }
 
 
